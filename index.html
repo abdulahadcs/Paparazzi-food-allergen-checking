@@ -871,7 +871,7 @@
             { id: "fish", name: "Fish", emoji: "🐟" },
             { id: "peanuts", name: "Peanuts", emoji: "🥜" },
             { id: "soybeans", name: "Soybeans", emoji: "🌱" },
-            { id: "milk", name: "Milk", emoji: "🥛" },
+            { id: "Dairy", name: "Dairy", emoji: "🥛" },
             { id: "nuts", name: "Nuts", emoji: "🌰" },
             { id: "celery", name: "Celery", emoji: "🥬" },
             { id: "mustard", name: "Mustard", emoji: "🟡" },
@@ -884,33 +884,33 @@
         // COMPLETE FOOD DATA FROM YOUR MENU
         const foodData = [
             // STARTERS
-            { id: 1, name: "Wagyu Bao Buns", category: "starters", allergens: ["gluten", "eggs", "milk"] },
-            { id: 2, name: "Yuzu Mango Chicken", category: "starters", allergens: ["milk"] },
-            { id: 3, name: "Calamari alla Paparazzi", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "fish", "milk", "molluscs"] },
+            { id: 1, name: "Wagyu Bao Buns", category: "starters", allergens: ["gluten", "eggs", "Dairy"] },
+            { id: 2, name: "Yuzu Mango Chicken", category: "starters", allergens: ["Dairy"] },
+            { id: 3, name: "Calamari alla Paparazzi", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "fish", "Dairy", "molluscs"] },
             { id: 4, name: "Lamb Yakitori", category: "starters", allergens: ["soybeans", "sesame"] },
-            { id: 5, name: "Korean Sticky Wings", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "soybeans", "sesame"] },
+            { id: 5, name: "Korean Sticky Wings", category: "starters", allergens: ["gluten", "eggs", "soybeans", "sesame"] },
             { id: 6, name: "Brocolini", category: "starters", allergens: [] },
-            { id: 7, name: "Dynamite King Prawns", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "fish", "milk", "molluscs"] },
-            { id: 8, name: "Panko Halloumi", category: "starters", allergens: ["gluten", "milk", "nuts"] },
-            { id: 9, name: "Padron Peppers", category: "starters", allergens: ["gluten", "soybeans"] },
+            { id: 7, name: "Dynamite King Prawns", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "fish", "Dairy", "molluscs"] },
+            { id: 8, name: "Panko Halloumi", category: "starters", allergens: ["gluten", "Dairy", "nuts"] },
+            { id: 9, name: "Padron Peppers", category: "starters", allergens: ["crustaceans", "soybeans"] },
             { id: 10, name: "Prawn Tempura", category: "starters", allergens: ["gluten", "crustaceans", "eggs", "fish", "molluscs"] },
-            { id: 11, name: "Hummus Trio", category: "starters", allergens: ["gluten", "soybeans"] },
+            { id: 11, name: "Hummus Trio", category: "starters", allergens: ["gluten"] },
 
             // MAIN COURSES
-            { id: 12, name: "Wagyu Ribeye", category: "main", allergens: ["milk"] },
-            { id: 13, name: "USDA Prime Sirloin", category: "main", allergens: ["milk"] },
-            { id: 14, name: "Black Angus Fillet", category: "main", allergens: ["milk"] },
-            { id: 15, name: "Lamb Cutlets", category: "main", allergens: ["milk"] },
-            { id: 16, name: "Wagyu Burger", category: "main", allergens: ["gluten", "milk"] },
-            { id: 17, name: "Lamb Fillet", category: "main", allergens: ["milk"] },
-            { id: 18, name: "Chicken Shish", category: "main", allergens: ["gluten", "milk"] },
-            { id: 19, name: "Chicken Thighs", category: "main", allergens: ["milk"] },
-            { id: 20, name: "Crispy Yuzu Chicken", category: "main", allergens: ["gluten", "soybeans", "milk", "sesame"] },
-            { id: 21, name: "Chipotle Chicken", category: "main", allergens: ["gluten", "milk"] },
-            { id: 22, name: "Tokyo Glazed Salmon", category: "main", allergens: ["crustaceans", "sesame", "molluscs"] },
-            { id: 23, name: "Fillet of Seabass", category: "main", allergens: [] },
-            { id: 24, name: "Grilled Tiger Prawns", category: "main", allergens: ["gluten", "crustaceans", "eggs", "fish", "milk", "molluscs"] },
-            { id: 25, name: "Chilli Prawn Tagliatelle", category: "main", allergens: ["crustaceans", "eggs", "fish", "milk", "molluscs"] },
+            { id: 12, name: "Wagyu Ribeye", category: "main", allergens: ["Dairy"] },
+            { id: 13, name: "USDA Prime Sirloin", category: "main", allergens: ["Dairy"] },
+            { id: 14, name: "Black Angus Fillet", category: "main", allergens: ["Dairy"] },
+            { id: 15, name: "Lamb Cutlets", category: "main", allergens: ["Dairy"] },
+            { id: 16, name: "Wagyu Burger", category: "main", allergens: ["gluten", "Dairy"] },
+            { id: 17, name: "Lamb Fillet", category: "main", allergens: ["Dairy"] },
+            { id: 18, name: "Chicken Shish", category: "main", allergens: ["gluten", "Dairy"] },
+            { id: 19, name: "Chicken Thighs", category: "main", allergens: ["Dairy"] },
+            { id: 20, name: "Crispy Yuzu Chicken", category: "main", allergens: ["gluten", "soybeans", "Dairy", "sesame"] },
+            { id: 21, name: "Chipotle Chicken Pasta", category: "main", allergens: ["gluten", "Dairy"] },
+            { id: 22, name: "Tokyo Glazed Salmon", category: "main", allergens: ["gluten","fish", "sesame"] },
+            { id: 23, name: "Fillet of Seabass", category: "main", allergens: ["fish"] },
+            { id: 24, name: "Grilled Tiger Prawns", category: "main", allergens: ["gluten", "crustaceans", "eggs", "fish", "Dairy", "molluscs"] },
+            { id: 25, name: "Chilli Prawn Tagliatelle", category: "main", allergens: ["crustaceans", "eggs", "fish", "Dairy", "molluscs"] },
             { id: 26, name: "Miso Mushrooms", category: "main", allergens: ["soybeans"] },
             { id: 27, name: "Yaki Udon", category: "main", allergens: [] },
 
@@ -919,19 +919,19 @@
             { id: 29, name: "Sweet Potato", category: "sides", allergens: ["gluten", "soybeans"] },
             { id: 30, name: "Sautéed Mushrooms", category: "sides", allergens: [] },
             { id: 31, name: "Fries", category: "sides", allergens: [] },
-            { id: 32, name: "Truffle Fries", category: "sides", allergens: ["gluten", "milk"] },
-            { id: 33, name: "Creamy Mash", category: "sides", allergens: ["milk"] },
+            { id: 32, name: "Truffle Fries", category: "sides", allergens: ["gluten", "Dairy"] },
+            { id: 33, name: "Creamy Mash", category: "sides", allergens: ["Dairy"] },
             { id: 34, name: "Tenderstem Broccoli", category: "sides", allergens: [] },
-            { id: 35, name: "Mac & Cheese", category: "sides", allergens: ["gluten", "milk"] },
+            { id: 35, name: "Mac & Cheese", category: "sides", allergens: ["gluten", "Dairy"] },
             { id: 36, name: "Chips", category: "sides", allergens: [] },
 
             // DESSERTS
-            { id: 37, name: "Brownie", category: "desserts", allergens: ["gluten", "eggs", "milk"] },
-            { id: 38, name: "Chocolate Bomb", category: "desserts", allergens: ["gluten", "eggs", "milk", "nuts"] },
-            { id: 39, name: "Creme Brulee", category: "desserts", allergens: ["eggs", "milk"] },
-            { id: 40, name: "Sticky Toffee Pudding", category: "desserts", allergens: ["gluten", "eggs", "milk", "sulphites"] },
-            { id: 41, name: "All Ice Creams", category: "desserts", allergens: ["eggs", "milk"] },
-            { id: 42, name: "All Sorbets", category: "desserts", allergens: [] }
+            { id: 37, name: "Brownie", category: "desserts", allergens: ["gluten", "eggs", "Dairy"] },
+            { id: 38, name: "Chocolate Bomb", category: "desserts", allergens: ["gluten", "eggs", "Dairy", "nuts"] },
+            { id: 39, name: "Creme Brulee", category: "desserts", allergens: ["eggs", "Dairy"] },
+            { id: 40, name: "Sticky Toffee Pudding", category: "desserts", allergens: ["gluten", "eggs", "Dairy", "sulphites"] },
+            { id: 41, name: "All Ice Creams", category: "desserts", allergens: ["gluten","eggs", "Dairy"] },
+            { id: 42, name: "All Sorbets", category: "desserts", allergens: ["gluten"] }
         ];
 
         // CATEGORIES
@@ -1363,5 +1363,4 @@
 </body>
 
 </html>
-
 
